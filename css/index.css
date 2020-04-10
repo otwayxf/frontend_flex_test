@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+.flexParent {
+  width: 100%;
+  height: 100%;
+  /** 
+    flex布局
+  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.flexParent div {
+  flex: 1 0 12.5%;
+  height: 33.33333%;
+  text-align: center;
+  line-height: 300px;
+  min-height: 300px;
+  /* border: 1px solid #ccc; */
+}
+
